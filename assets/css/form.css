@@ -1,0 +1,55 @@
+:root{
+    --bright-yellow: #FFBA08;
+    --yellow: #FAA307;
+    --dark-yellow: #F48C06;
+    --light-orange: #E85D04;
+    --orange: #DC2F02;
+    --red: #D00000;
+    --dark-red: #9D0208;
+    --light-red-brown: #6A040F;
+    --red-brown: #370617;
+    --blue: #03071E;
+}
+
+main{
+    display:flex;
+    height: 100vh;
+}
+
+#image, #form{
+    flex: 1 1 auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#image{
+    border-right: solid var(--red);
+}
+
+#form{
+    border-left: solid var(--red);
+}
+
+form{
+    padding: 1rem;
+    border: solid var(--red);
+    border-radius: 1rem;
+}
+
+
+h1{
+    text-align: center;
+    padding-bottom: 1.5rem;
+    font-size: 200%;
+}
+
+.input-areas{
+    margin: 1rem 0;
+}
+
+#content-input{
+    width:100%
+}
+
+

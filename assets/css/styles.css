@@ -1,0 +1,45 @@
+:root{
+    --bright-yellow: #FFBA08;
+    --yellow: #FAA307;
+    --dark-yellow: #F48C06;
+    --light-orange: #E85D04;
+    --orange: #DC2F02;
+    --red: #D00000;
+    --dark-red: #9D0208;
+    --light-red-brown: #6A040F;
+    --red-brown: #370617;
+    --blue: #03071E;
+}
+
+body{
+    display: border-box;
+    font-size: 100%;
+    font-family: monospace;
+}
+
+nav{
+    position: fixed;
+    top:0;
+    width:80%;
+    margin-left: 10%;
+    display:flex;
+    justify-content: right;
+    padding: 0.5rem;
+    border-bottom: 0.4rem solid var(--red);
+    border-left: 0.4rem solid var(--red);
+    border-right: 0.4rem solid var(--red);
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    background-color: var(--light-orange);
+}
+
+.nav-elements{
+    margin-right: 1rem;
+    padding: 0.5rem;
+}
+
+main{
+    background-image: linear-gradient(var(--bright-yellow),var(--light-orange))
+}
+
+

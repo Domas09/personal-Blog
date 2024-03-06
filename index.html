@@ -5,38 +5,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Page</title>
-    <link type="stylesheet" src="./assets/css/styles.css">
-    <link type="stylesheet" src="./assets/css/form.css">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/form.css">
 </head>
 
 <body>
     <header>
         <nav>
-            <h1>Personal Blog</h1>
-            <a href="#">View Blog</a>
-            <button type="button">☀️</button>
+            <a class = "nav-elements" href="./blog.html">View Blog</a>
+            <button class="nav-elements" type="button">☀️</button>
         </nav>
     </header>
     <main>
-        <div>
+        <div id="image">
             <img id="form-image" src="./assets/images/download.png">
         </div>
-        <div>
+        <div id="form">
             <form>
-                <h2>Whats going on?</h2>
-                <div>
-                    <label for="title-input">Title</label>
+                <h1>Whats going on?</h1>
+                <div class="input-areas">
+                    <label for="title-input">Title:</label>
                     <input type="text" id="title-input" placeholder="Title">
                 </div>
-                <div>
-                    <label for="username-input">Username</label>
+                <div class="input-areas">
+                    <label for="username-input">Username:</label>
                     <input type="text" id="username-input" placeholder="Username">
                 </div>
-                <div>
-                    <label for="content-input">Content</label>
-                    <input type="text" id="content-input" placeholder="Content">
+                <div class="input-areas">
+                    <textarea type="text" id="content-input" rows="4" placeholder="Content"></textarea>
                 </div>
-                <button type="submit">Submit</button>
+                <button class="input-areas" type="submit">Submit</button>
             </form>
         </div>
     </main>
