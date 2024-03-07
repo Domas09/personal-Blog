@@ -1,0 +1,37 @@
+:root{
+    --bright-yellow: #FFBA08;
+    --yellow: #FAA307;
+    --dark-yellow: #F48C06;
+    --light-orange: #E85D04;
+    --orange: #DC2F02;
+    --red: #D00000;
+    --dark-red: #9D0208;
+    --light-red-brown: #6A040F;
+    --red-brown: #370617;
+    --blue: #03071E;
+}
+
+main{
+    padding: 5rem 3rem;
+    display:flex;
+    flex-direction: column-reverse;
+    height: 90vh;
+    justify-content: start;
+}
+
+.card{
+    padding: 1rem 0.5rem;
+    margin-bottom: 2rem;
+    border: solid var(--red);
+    color: var(--blue);
+    background-color: var(--yellow);
+}
+
+h1{
+    font-size: 200%;
+}
+
+h2{
+    font-size: 125%;
+    margin-bottom: 0.5rem;
+}

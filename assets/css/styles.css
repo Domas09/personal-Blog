@@ -39,7 +39,8 @@ nav{
 }
 
 main{
-    background-image: linear-gradient(var(--bright-yellow),var(--light-orange))
+    background-image: linear-gradient(var(--bright-yellow),var(--light-orange));
+    color: var(--red-brown);
 }
 
 
