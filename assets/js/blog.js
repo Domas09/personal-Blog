@@ -16,12 +16,22 @@ function makeEl(preText, elementType, content, section){
     section.appendChild(el);
 }
 
-
-// for(let i = 0; i < formArray.length; i++){
-    
-// }
-
+function getText(index, objectName){
+    const text = formArray[index][objectName];
+    if(text === ""){
+        return "-empty-";
+    } else {
+        return text;
+    }
+}
 makeCard("Im bored", "Domas", "Im working on this project and its taking a bit.");
 makeCard("Im exited", "Domas", "I got something to work for once :).");
 makeCard("Im confused", "Domas", "Now something isnt working :(.");
+makeCard("Im confused", "Domas", "I finnaly got eveything to work");
+
+for(let i = 0; i < formArray.length; i++){
+    makeCard(getText(i, "title"), getText(i, "username"), getText(i, "content"));
+}
+
+
 
