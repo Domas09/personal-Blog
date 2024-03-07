@@ -21,7 +21,7 @@ https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
 
 ## Screenshot
 
-![alt text](assets/images/screenshot.png)
+![alt text](./assets/images/Screenshot.png)
 
 ## Link
 
