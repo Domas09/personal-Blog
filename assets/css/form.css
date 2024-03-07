@@ -52,4 +52,14 @@ h1{
     width:100%
 }
 
+.dark #form, .dark form{
+    border-color: var(--dark-yellow);
+}
 
+.dark form {
+    background-color: var(--blue);
+}
+
+.dark #image {
+    border-color: var(--dark-yellow);
+}

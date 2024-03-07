@@ -43,4 +43,13 @@ main{
     color: var(--red-brown);
 }
 
+.dark main{
+    background-image: linear-gradient(var(--blue), var(--red-brown));
+    color: var(--yellow);
+}
+
+.dark nav{
+    background-color: var(--red-brown);
+    border-color: var(--dark-yellow);
+}
 
